@@ -1,0 +1,10 @@
+# Data types
+int_num = 10
+float_num = 5.23
+complex_num = 2 + 3j
+string = "Hello, World"
+boolean = False
+list_example = [12,32,54,35]
+tuple_example = (12,23,34,67)
+dict_example = {"a":23,"b":23,"c":45}
+set_example = {12,23,45,67}
