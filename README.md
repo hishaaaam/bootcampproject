@@ -9,6 +9,6 @@ OLA is an online ride-hailing application designed to facilitate efficient manag
 
 🛠️ Components
 
-Backend: Contains the server-side logic, and database interactions.
-Frontend: User interface components built with Tkinter, a GUI toolkit for Python.
-Database: Includes the database schema, ER diagram, and Power BI reports for data visualization.
+1. Backend: Contains the server-side logic, and database interactions.
+2. Frontend: User interface components built with Tkinter, a GUI toolkit for Python.
+3. Database: Includes the database schema, ER diagram, and Power BI reports for data visualization.
