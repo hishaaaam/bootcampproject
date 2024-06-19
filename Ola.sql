@@ -84,10 +84,10 @@ INSERT INTO Vehicles (VehicleType, RegistrationNumber, Model, Manufacturer, Year
 ('SUV', 'KL-02 CD 5678', 'Toyota Fortuner', 'Toyota', 2019, 7),
 ('Hatchback', 'KL-03 EF 9012', 'Hyundai i20', 'Hyundai', 2021, 5),
 ('Scooter', 'KL-04 GH 3456', 'Honda Activa', 'Honda', 2020, 2),
-('Luxury Sedan', 'KL-05 IJ 7890', 'Mercedes-Benz E-Class', 'Mercedes-Benz', 2022, 5);
+('Luxury Sedan', 'KL-05 KJ 7890', 'Mercedes-Benz E-Class', 'Mercedes-Benz', 2022, 5);
 
 INSERT INTO Drivers (DName, Email, Address, PhoneNumber, LicenseNumber, VehicleID) VALUES
-('Thomas Mathew', 'thomas.mathew@example.com', 'Kochi, Kerala', '+91 9876543211', 'DL-202345', 1),
+('Albin Mathew', 'albin.mathew@example.com', 'Kochi, Kerala', '+91 9876543211', 'DL-202345', 1),
 ('Sara Joseph', 'sara.joseph@example.com', 'Trivandrum, Kerala', '+91 8765432108', 'DL-202346', 2),
 ('Rajesh Kumar', 'rajesh.kumar@example.com', 'Kozhikode, Kerala', '+91 7654321097', 'DL-202347', 3),
 ('Priya Nair', 'priya.nair@example.com', 'Alappuzha, Kerala', '+91 6543210986', 'DL-202348', 4),
