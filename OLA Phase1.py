@@ -3,6 +3,7 @@ from tkinter import messagebox
 import mysql.connector
 from mysql.connector import Error
 
+
 # sign up function
 def sign_up():
     def register_user():
@@ -37,10 +38,12 @@ def sign_up():
 
     tk.Label(sign_up_window, text="OLA CABS", fg="blue", font=('Helvetica', 15, 'bold')).grid(row=0, column=0, columnspan=2, pady=10)
 
+    
     tk.Label(sign_up_window, text="Username", font=('Helvetica', 12)).grid(row=1, column=0, padx=10, pady=5)
     entry_uname = tk.Entry(sign_up_window)
     entry_uname.grid(row=1, column=1, padx=10, pady=5)
 
+    
     tk.Label(sign_up_window, text="Address", font=('Helvetica', 12)).grid(row=2, column=0, padx=10, pady=5)
     entry_address = tk.Entry(sign_up_window)
     entry_address.grid(row=2, column=1, padx=10, pady=5)
