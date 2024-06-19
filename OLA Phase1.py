@@ -4,6 +4,7 @@ import mysql.connector
 from mysql.connector import Error
 
 
+
 # sign up function
 def sign_up():
     def register_user():
@@ -32,11 +33,13 @@ def sign_up():
             mycursor.close()
             mydb.close()
 
+    
     sign_up_window = tk.Toplevel(root)
     sign_up_window.title("Sign up")
     sign_up_window.geometry("350x300")
 
     tk.Label(sign_up_window, text="OLA CABS", fg="blue", font=('Helvetica', 15, 'bold')).grid(row=0, column=0, columnspan=2, pady=10)
+
 
     
     tk.Label(sign_up_window, text="Username", font=('Helvetica', 12)).grid(row=1, column=0, padx=10, pady=5)
@@ -105,6 +108,8 @@ def sign_in():
 
     tk.Button(sign_in_window, text="Sign In", command=authenticate_user, fg="white", bg="blue").grid(row=3, column=1, pady=10)
 
+
+
 # Main Window
 root = tk.Tk()
 root.title("OLA Booking App")
@@ -114,3 +119,5 @@ tk.Button(root, text="Sign Up", command=sign_up, fg="white", bg="blue").pack(pad
 tk.Button(root, text="Sign In", command=sign_in, fg="white", bg="blue").pack(pady=10)
 
 root.mainloop()
+
+
