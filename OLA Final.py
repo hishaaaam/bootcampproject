@@ -239,6 +239,7 @@ def open_booking_page(user_id):
             if 'mydb' in locals():
                 mydb.close()
 
+    
     booking_window = tk.Toplevel(root)
     booking_window.title("Book a Ride")
     booking_window.geometry("400x400")
@@ -262,6 +263,7 @@ def open_booking_page(user_id):
     tk.Button(booking_window, text="Confirm Booking", command=confirm_booking, fg="white", bg="blue").pack(pady=20)
 
 
+
 # Main Window
 root = tk.Tk()
 root.title("OLA Booking App")
@@ -271,3 +273,4 @@ tk.Button(root, text="Sign Up", command=sign_up, fg="white", bg="blue").pack(pad
 tk.Button(root, text="Sign In", command=sign_in, fg="white", bg="blue").pack(pady=10)
 
 root.mainloop()
+
