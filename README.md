@@ -14,6 +14,6 @@ OLA is an online ride-hailing application designed to facilitate efficient manag
 3. Database: Includes the database schema, ER diagram, and Power BI reports for data visualization.
 
 🛠️ How to Run
-1. Save the SQL file in your computer and execute it
-2. Open the Python file and change the Username and password in the SQL connector according to your SQL server
-3. Run the Python file
+1. Save the OLA folder in your personal computer
+2. Run the exe file in the dist folder
+
